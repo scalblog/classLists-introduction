@@ -1,0 +1,15 @@
+#paragraphe {
+  color:blue;
+}
+
+.button{
+  color:green;
+}
+
+.bold{
+  font-weight : bolder;
+}
+
+.italic {
+  font-style : italic;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Introduction à ClassList</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="classList.css"> <!-- on lie le fichier HTML à la feuille de style-->
+<body>
+	<h1>Essai classLists</h1>
+	<p>On souhaite que : </p>
+	<ul><li>le Lorem Ipsum passe en Italique si la souris passe dessus</li>
+	  <li>le Lorem Ispsum annule l'Italique si on clique dessus</li>
+	  <li>le bouton passe en gras quand on clique dessus</li>
+	<p id="paragraphe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis aut ducimus, culpa porro doloremque, animi rerum, cumque, dolorem illo deleniti facilis consequatur. Quis, ipsam vero?</p>
+	<input class="button" type="button" value="Clique moi !" />
+	<!-- l' ID paragraphe va permettra de tester getElementsByID et la CLASS button va permettre de tester querySelector (dans le fichier JavaScript) -->
+	<p></p>
+	<small>Mes autres tutos sur <a href="https://github.com/scalblog">mon github scalblog</a></small>
+
+	<script src="classList.js"></script> <!-- on termine le body avec la partie JavaScript à exécuter -->
+</body>
+</html>
